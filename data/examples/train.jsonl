@@ -1,0 +1,8 @@
+{"text": "真是高效率，等了三个小时连号码都没叫到。", "retweeted_content": "服务窗口宣传当天办理无需等待。", "label": 1, "source_line": 1, "is_synthetic": true}
+{"text": "今天窗口人比较多，我等了三个小时。", "retweeted_content": "服务大厅正在集中办理业务。", "label": 0, "source_line": 2, "is_synthetic": true}
+{"text": "服务可真周到，客服让我自己去猜订单在哪。", "retweeted_content": "商店承诺为每笔订单提供全程查询服务。", "label": 1, "source_line": 3, "is_synthetic": true}
+{"text": "客服已经帮我查到订单了，谢谢。", "retweeted_content": "商店提供订单查询服务。", "label": 0, "source_line": 4, "is_synthetic": true}
+{"text": "这路修得真平整，一路颠得我以为在坐过山车。", "retweeted_content": "新修道路宣布正式通车。", "label": 1, "source_line": 5, "is_synthetic": true}
+{"text": "路面有几处坑洼，希望尽快维修。", "retweeted_content": "道路开放后收到使用反馈。", "label": 0, "source_line": 6, "is_synthetic": true}
+{"text": "真是省心的应用，每点一步都得重新登录。", "retweeted_content": "应用发布说明称登录体验更流畅。", "label": 1, "source_line": 7, "is_synthetic": true}
+{"text": "新版应用的字体更清楚了，我很喜欢。", "retweeted_content": "应用更新了界面设计。", "label": 0, "source_line": 8, "is_synthetic": true}

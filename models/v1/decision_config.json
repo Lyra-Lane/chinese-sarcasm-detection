@@ -1,0 +1,7 @@
+{
+  "selected_on": "predefined_before_training",
+  "selection_mode": "fixed_before_training",
+  "classification_threshold": 0.5,
+  "num_train_epochs": 1.5,
+  "best_checkpoint": null
+}

@@ -1,0 +1,14 @@
+{
+  "total": 1707992,
+  "positive": 26250,
+  "negative": 1681742,
+  "positive_ratio": 0.015368924444610983,
+  "fields": {
+    "content": "评论正文",
+    "retweeted_content": "被评论原帖/上下文内容（已清理OCR重复）",
+    "is_sarcasm": "标签，1=讽刺，0=非讽刺",
+    "source_line": "对应原始清洗文件中的物理行号，用于溯源和断点续标",
+    "qwen_label / deepseek_flash_label / deepseek_pro_label": "三模型各自投票标签",
+    "positive_votes": "三模型中投1的票数"
+  }
+}

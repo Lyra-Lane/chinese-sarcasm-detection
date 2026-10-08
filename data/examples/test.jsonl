@@ -1,0 +1,4 @@
+{"text": "这隔音太棒了，隔壁的闹钟都替我定好了。", "retweeted_content": "公寓广告强调房间安静、隔音良好。", "label": 1, "source_line": 9, "is_synthetic": true}
+{"text": "隔壁闹钟声音太大，早上把我吵醒了。", "retweeted_content": "住户讨论公寓的居住体验。", "label": 0, "source_line": 10, "is_synthetic": true}
+{"text": "网速真快，一张图片加载到我都能画完了。", "retweeted_content": "网络套餐宣传高速下载。", "label": 1, "source_line": 11, "is_synthetic": true}
+{"text": "今天网速不太稳定，图片加载很慢。", "retweeted_content": "用户分享家庭网络使用情况。", "label": 0, "source_line": 12, "is_synthetic": true}

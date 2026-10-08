@@ -1,0 +1,30 @@
+{
+  "input_file": "<historical-project-root>/data/labeled/sarcasm_labeled.jsonl",
+  "input_sha256": "c8ebacf98c455a177aa744419fcd3fa6bcde5c5aba083c07b54a663e272c363a",
+  "source_counts": {
+    "positive": 26250,
+    "negative": 1681742,
+    "valid_total": 1707992,
+    "sampled_negative": 26250
+  },
+  "seed": 42,
+  "positive_split_ratio": "8:2",
+  "splits": {
+    "train": {
+      "file": "<historical-project-root>/data/splits/train.jsonl",
+      "sha256": "b44728917a0e448c15bd457c333d1e29f13d8f8fda99d36f01eaed56ca486324",
+      "samples": 42000,
+      "positive": 21000,
+      "negative": 21000,
+      "negative_per_positive": 1.0
+    },
+    "test": {
+      "file": "<historical-project-root>/data/splits/test.jsonl",
+      "sha256": "a6b00e8ef4c94082eb6c0e2952355b973cb688857b0d5dbae5cec14ab258c123",
+      "samples": 10500,
+      "positive": 5250,
+      "negative": 5250,
+      "negative_per_positive": 1.0
+    }
+  }
+}

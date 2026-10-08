@@ -1,0 +1,46 @@
+{
+  "model_name_or_path": "<historical-project-root>/outputs/sarcasm_cls_prompt_iterative/iter2_group1/experiments/exp_20260821_173605/best_model",
+  "tokenizer_name_or_path": "<historical-project-root>/outputs/sarcasm_cls_prompt_iterative/iter2_group1/experiments/exp_20260821_173605/best_model",
+  "learning_rate": 5e-06,
+  "train_batch_size": 32,
+  "eval_batch_size": 32,
+  "num_train_epochs": 3.0,
+  "weight_decay": 0.01,
+  "warmup_steps": 0,
+  "warmup_ratio": 0.1,
+  "optimizer": "OptimizerNames.ADAMW_TORCH_FUSED",
+  "lr_scheduler_type": "SchedulerType.COSINE",
+  "gradient_accumulation_steps": 1,
+  "fp16": false,
+  "bf16": false,
+  "label_smoothing_factor": 0.0,
+  "max_grad_norm": 1.0,
+  "max_length": 1280,
+  "seed": 42,
+  "data_seed": 42,
+  "early_stopping": null,
+  "metric_for_best_model": null,
+  "greater_is_better": null,
+  "classification_threshold": 0.5,
+  "threshold_selection": {
+    "dataset": null,
+    "method": "fixed_before_training",
+    "value": 0.5
+  },
+  "loss_type": "focal",
+  "class_weight": {
+    "type": "focal_loss",
+    "gamma": 2.0,
+    "alpha_positive_label1": 0.5,
+    "alpha_negative_label0": 0.5
+  },
+  "label_mapping": {
+    "0": 0,
+    "1": 1
+  },
+  "use_context": true,
+  "context_concat_format": "prompt_mlm: '结合 {retweeted_content} ，判断{text}是否是反讽表达，[MASK]'（只截断 retweeted_content，text 与固定结构始终保留完整）",
+  "truncation": true,
+  "padding": "max_length",
+  "save_total_limit": 3
+}

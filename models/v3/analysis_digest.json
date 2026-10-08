@@ -1,0 +1,509 @@
+{
+  "schema_version": "1.0",
+  "primary_metric": {
+    "name": null,
+    "value": null
+  },
+  "validation_core_metrics": {},
+  "test_core_metrics": {
+    "loss": 0.11676288396120071,
+    "accuracy": 0.89,
+    "precision": 0.8074324983492351,
+    "recall": 0.7280952380952381,
+    "f1": 0.7093432256406716,
+    "macro_f1": 0.7093432256406716,
+    "sarcasm_precision": 0.9567254070934642,
+    "sarcasm_recall": 0.816952380952381,
+    "sarcasm_f1": 0.8813315524504265,
+    "average_precision": 0.9337789820675708,
+    "threshold": 0.5,
+    "false_positive_rate": 0.03695238095238095,
+    "specificity": 0.963047619047619,
+    "predicted_positive_ratio": 0.42695238095238097,
+    "tn": 5056,
+    "fp": 194,
+    "fn": 961,
+    "tp": 4289
+  },
+  "by_split": {
+    "test": {
+      "num_samples": 10500,
+      "confusion": {
+        "TP": 4289,
+        "TN": 5056,
+        "FP": 194,
+        "FN": 961
+      },
+      "error_rate_by_length": [
+        {
+          "range": "0-50",
+          "num_samples": 0,
+          "num_errors": 0,
+          "error_rate": null
+        },
+        {
+          "range": "50-150",
+          "num_samples": 0,
+          "num_errors": 0,
+          "error_rate": null
+        },
+        {
+          "range": "150-256",
+          "num_samples": 0,
+          "num_errors": 0,
+          "error_rate": null
+        },
+        {
+          "range": "256+",
+          "num_samples": 10500,
+          "num_errors": 2855,
+          "error_rate": 0.2719047619047619
+        }
+      ],
+      "top_confident_false_negatives": [
+        {
+          "id": 7081,
+          "split": "test",
+          "content": "愿你走过的每一步，都有鲜花盛开和热烈掌声相伴左右【下地狱】",
+          "context": "#祺鑫 楼婚一#💜💛#祺鑫 强强联手# 不求名声显赫，只愿你岁岁平安、快乐常伴每一天 ​",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9948139785275413,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 8469,
+          "split": "test",
+          "content": "真丰盛啊[龇牙]",
+          "context": "继续涨称的一天哈哈哈 OCR: 福 8 发",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9893883884314463,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 9897,
+          "split": "test",
+          "content": "关爱老人，人人有责。[戳手手]",
+          "context": "在东阳市巍山镇怀鲁村，要租店面的商家，千万注意了!!! 这两位老人家，会蹭店家不在店里，偷卖商家设备。太牛了吧具体店面房在这个定位这里!!今天 路过自己店门口，因为处于转让的状态，没隔三差五的回乡下。今天经过店门口，发现门口的烧烤设备上贴上了房东的号码，写着烤炉转让。把我们原来店面转让的信息撕毁。我告诉你店门钥匙放在哪里，不是为了你方便盗卖商家设备，而是方便你带其它租客看店面格局。租店面的时候，因为在准备开店的设备材料，前面有几天空着。后来去办理营业执照才知道，这家店前面商户没有注销。我们注册不了新商家。我一直在积极联系前面商户，让对方注销。在等待的期间，房东也是吃了雄心豹子🐆胆，把店里的烧烤架和大铁锅，盗卖，盗卖，盗卖。后来我们自己又重新买来一个烧烤架，又把自己家里的炒菜锅拿去店里用。没想到啊，没想到啊，现在蹭着我转让期间不在店里的空挡，居然明目张胆的要把烧烤净化器卖掉，牛逼，佩服！！！#爱护老人传递正能量 #老年生活百态 #东阳 #怀鲁 #巍山 OCR: [IMG0]小抖音号：Just888888",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9886395016617301,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 6650,
+          "split": "test",
+          "content": "@王奕然leo//好的，你高兴就好",
+          "context": "#王奕然[超话]# 天才摄影师 怎么说 ​",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9871384197656925,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7634,
+          "split": "test",
+          "content": "私信了，主播人很好问我是什么品种癞蛤蟆[流泪]",
+          "context": "突然抬头定格在黄昏的晚霞#龙湖之镜，夕照为诗 OCR: [IMG0]抖音号：lm1204ya",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9858143833824777,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4770,
+          "split": "test",
+          "content": "伟大的馆长万岁万岁万万岁！[赞][赞][赞][赞][赞][赞][赞][赞][赞][赞]",
+          "context": "OCR: 馆长道款",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9841663535823892,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 2118,
+          "split": "test",
+          "content": "支持千年笼养文化，继续传承下去",
+          "context": "#保护鸟类人人有责 #爱鸟护鸟 #画眉鸟食 #云南王鸟食鸟具 OCR: 保护鸟类人人有责已全部放生 保护鸟类人人有责已全部放生遇鸟是老一辈传下来的休闲乐趣 保护鸟类人人有已全部放生多少退休大爷靠着每日提笼散步打发时光 保护鸟类人人有责已全部放生我们热爱赏鸟传承民俗",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9832968472772502,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4803,
+          "split": "test",
+          "content": "太好了，又是限时开放[裂开]",
+          "context": "海瑟加入超燃竞技场！疯狂超燃返场 #蛋仔派对情报局 #蛋仔派对 #蛋仔奇思妙想计划 #蛋仔派对超燃竞技场 OCR: 护士海瑟品/辅助3海瑟加入超燃疯狂超燃返场",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9798851642384621,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 717,
+          "split": "test",
+          "content": "就凭这两个蛤蟆洞就注意哇塞了",
+          "context": "两个失散多年的卵子兄弟今日重逢#兄弟情 #猛禽 #失散双胞胎 OCR: [IMG0]小抖音号：14825207",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9786444702932141,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 9808,
+          "split": "test",
+          "content": "你是自愿被逼的[柴犬]",
+          "context": "她逼我发的😭 @糯糯、",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.978071370424992,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 3599,
+          "split": "test",
+          "content": "李井泉，四川人民祖祖辈辈都不会忘记你。",
+          "context": "开国第一任省市书记，在任职阶段没有出现一人因贪污腐败被追究刑事责任。 OCR: [IMG0]开国第一任省市委书记市领影市彭真河南省：张玺天津市：黄敬湖北省：李先念河北省：林铁湖南省：黄克诚山西省：程子华广东省：叶剑英内蒙古：乌兰夫广1西区：张云逸辽宁省：黄欧东四川省：李井泉吉林省：刘锡五贵州省：苏振华黑龙江：张启龙云南省：宋任穷上海市：饶漱石西藏区：张国华江苏省：柯庆施浙江省：谭震林陕西省：马明方安徽省：曾希圣甘肃省：张德生福建省：张鼎丞青海省：张仲良江西省：陈正人宁夏区：潘自力山东省：舒同新疆区：王震弹",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9768695493742993,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 3413,
+          "split": "test",
+          "content": "带娃真很有意思的",
+          "context": "#音乐治愈 #爸爸带娃 OCR: 别在伤口撒盐MNL1/125OPEN3dB相仇的局面O",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9759998281733067,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 5504,
+          "split": "test",
+          "content": "诗中情感表达得真好！",
+          "context": "#现代诗如何才能写出优美的意境# 《藏头诗*原创》 现文坛相互攻讦 代沟已堪比深渊 诗人多魂飞魄散 如同是丧家之犬 何必要相煎太急 才子们吓破文胆 能力已大打折扣 写出来破败不堪 出家人出类拔萃 优势已十分明显 美丽使丑陋嫉妒 的确让他们不满 意味着不敢比试 境界是井中望天 （2） 你应该前往寺院 对柳下有个交代 人家虽光明磊落 生命却陷入黑暗 有机会帮他解脱 哪让君总吃斋饭 些许能红尘幸福 感受下何为真爱 悟透可同去彼岸 （3） 风骨中依然有爱 月色下走出寺院 皆有伊冻僵伏地 过路人视而不见 客官们退避三舍 为此我秉持信念 你就是狐妖转世 入怀抱只当修练 我不怕青灯熄灭 心路上没有黑暗",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.975862575622133,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7293,
+          "split": "test",
+          "content": "回复@前田稚:他一定有苦衷！",
+          "context": "孙妙青殿前（喝奶茶）失仪，然后孙家又送来了胆大的孙答应👇 ​ OCR: [IMG1]G",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9752866618547975,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1188,
+          "split": "test",
+          "content": "想快乐学习，上高中啊",
+          "context": "#平桂英语#高中英语#西湾英语",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9745360588798303,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 10165,
+          "split": "test",
+          "content": "大裤衩是给超人穿的吗",
+          "context": "苏州Citywalk💦金鸡湖一日游详细版攻略！！ 东方之门-风之园-李公堤-金水湾栈桥-划桨🏄‍♀️ 00:13东方之门 00:23风之园 00:33栈道 00:44咖啡☕️ 00:53苏帮菜🪷 01:42金水湾栈道 01:50划桨🏄‍♀️ #苏州金鸡湖#苏州citywalk#金鸡湖#东方之门#苏州桨板 OCR: 哈喽姐妹们",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.974427396427931,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1081,
+          "split": "test",
+          "content": "这个艺术家还是很有范儿的",
+          "context": "一千一百万播放，84万点赞的作品，好看在哪？",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9726881902801598,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 3750,
+          "split": "test",
+          "content": "租车你笑嘻嘻 出事你压手机",
+          "context": "#保持忧郁人设 OCR: 正O 如 云F·DA1230",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9720948470473503,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 8179,
+          "split": "test",
+          "content": "这路适合开船，不适合开车",
+          "context": "#陕汽德龙 #技术活 #德龙h3000 陕汽沙克曼 上道就是干",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9716214798512556,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 708,
+          "split": "test",
+          "content": "好吧 和服起源于中国哈",
+          "context": "#蒸汽波 OCR: [IMG0]抖音号：93298014914",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9705545970604188,
+          "total_token_length": 384,
+          "was_truncated": false
+        }
+      ],
+      "top_confident_false_positives": [
+        {
+          "id": 1175,
+          "split": "test",
+          "content": "老不死的疯疯癫癫，但愿这次说到做到。",
+          "context": "#特朗普# 对泽连斯基说：我们将给你们生产“爱国者”的许可证。这样你就不能抱怨我们给得不够了。自己制造吧。 微播U自娱自乐的微博视频 ​",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9472638304043558,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7214,
+          "split": "test",
+          "content": "上厕所都1.5欧……尼玛。我感觉我也不算穷人了。12欧的麻辣烫升级到15欧才能吃饱。[捂脸][捂脸][捂脸]",
+          "context": "网友坚信2000欧仅等于国内6000？大头鹰实拍当地物价与税制现场打脸！ OCR:",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9400295819351512,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 5214,
+          "split": "test",
+          "content": "一月十几万的外快，你这点她不在乎！",
+          "context": "收费员真的是人美心善，爆赞！ OCR: 货车司机下高速没钱付费收费员垫付通行费1396元你不怕我不还吗？牢道关的X违法装校严幼上高值15货车司机：ETCVAT我那天下高速未系安全带严禁上高",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9193404446078746,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 3556,
+          "split": "test",
+          "content": "哈哈哈😁这才是国民自信！",
+          "context": "印尼没想到逼走中资企业，产业链短板全面暴露。来自帅化民的观察 OCR: 全球大爆卦中天新中天新2026.07.31cti中天新现场直睛品中天新闻中天新间中天中天新阁中天新天新闻中天新中天新间中天中天新中天新盟岛内传达没有中资印尼经济几乎成了空壳？",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9183676378641027,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 10163,
+          "split": "test",
+          "content": "这叫：优雅的退出人生",
+          "context": "越来越多的老人选择一个叫七步的晚年活法！",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.8815161287695645,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4722,
+          "split": "test",
+          "content": "正说明你这些长辈们对金朋没-点亲情味，金朋以后千万要和他们画清阶线，永不来往",
+          "context": "大姑点餐时要拍视频把金鹏拍进去，想让网友夸大姑#金鹏孝行天下# OCR: 桃花大姑点餐时要拍金鹏进去想让网友夸大姑",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.8416735848279304,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 596,
+          "split": "test",
+          "content": "郑总郑总 1000mtx还要什么时候会上星云黑？什么时候执行放心定呢",
+          "context": "红牛罗马尼亚硬耐力赛（Red Bull Romaniacs）是全球 Hard Enduro 硬核耐力越野两大Supreme 最高级别殿堂赛事之一，与红牛厄兹伯格矿山耐力赛齐名。作为世界规模最大的多日硬核越野拉力赛事，赛事放在喀尔巴阡山脉，采用城市序幕排位 + 四天连续野外穿越的赛制，车手每日长时间直面原始密林、河谷乱石、湿滑陡坡与多变山地气候，同时依靠 GPS 自主导航，持续考验骑行技术、体能储备、机械应急能力与意志力。它常年汇聚全球五大洲顶尖职业车手，不同于单日决战的厄兹堡，罗马尼亚赛事更看重长期稳定性与持续作战能力，圈内公认完赛即是极高荣誉，冠军头衔是硬核越野领域含金量最重的勋章之一，也是衡量顶级车手综合实力的标杆赛事。 去年，春风第一次参与这项赛事，（adv组别一共65位选手）其中23位选手选择春风的车型，（今年adv组别一共99位选手）其中43人选择春风的车型，春风得到越来越多专业车手的认可 车手水平ADV组含15名以上达喀尔级职业车手，堪称“天花板级别” 包括两届达喀尔冠军山姆·桑德兰、两届红牛冠军乔尼·沃克、五届Enduro世界冠军伊万·塞万提斯等 同时还包括了知名ADV大神，也是上届终极组冠军波尔·塔雷斯",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.8402968627275511,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4871,
+          "split": "test",
+          "content": "陈三爷，“马上回来”和“照顾好夫人”语气也差太多了吧//她居然是摇头，天呐，娇嗔一词诠释的真好",
+          "context": "谁来懂一下这一段 良陈美锦 | 顾锦朝 | 陈彦允 | 任敏 | 此沙 冬恋源的微博视频 ​",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7980667720845581,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 6476,
+          "split": "test",
+          "content": "让我们恭喜深海猎人被逐出2026夏日嘉年华！（不是）",
+          "context": "#明日方舟[超话]##明日方舟##2026夏日嘉年华# 烈日炎炎，夏日漫长， 不如踏上旅途，享受兜风时光。 一条雷姆必拓的蜿蜒长路， 串联起四位旅人的奇妙相遇。 7月25日19:30，邀您一同出发—— 沿着“零号公路”，驶往风的方向。 BiliBili观看地址： 微博观看地址： 抖音观看地址： 快手观看地址： 小红书观看地址： 关注@明日方舟Arknights 并转发本条微博，我们将抽取50位博士，赠送「任意角色徽章」1个。再次感谢大家的支持！",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7975116879090205,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4731,
+          "split": "test",
+          "content": "孤舟好厉害啊，不愧是年冠王，二四年的剧二六年还那么能打[太开心]",
+          "context": "7.25酷云点播，云合，收视率 百花杀酷云2975万，云合2300万，确实差点有点多 这一秒过火2800万，好久没关注热度了，竟然降到了7000档[吃惊]，不过第一集收视率还行0.379 兵自风中来终于涨了，收视率平均0.93，央八有很久没有低于1的了 悬案超点了，中间停了很多天，人为增加集均。 南部档案云合热播期结束，1920万，酷云2100万+，算播得还行吧。 曾舜晞孤舟到了卫视第二✌🏻 #这一秒过火##百花杀##兵自风中来##剧集南部档案#",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7954142465575089,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7647,
+          "split": "test",
+          "content": "从盘里看得出来你老公很有钱[黑脸]",
+          "context": "#真实生活分享计划#旅行碎片#海边#财运",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7929843340881464,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 2677,
+          "split": "test",
+          "content": "稻子三十五年末涨！有的东西都涨百倍有余",
+          "context": "🤔🤔🤔#引流文案#搞笑#十年不涨价商品八成是国货 #十年不涨价 @合肥为工装饰",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7892522537128289,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1522,
+          "split": "test",
+          "content": "318国道天路18弯 车轱辘都干冒烟了 强制休整 这种物理降温还是第一次 真是奇葩不多见 一群奇葩灵机一动一起干一件有点傻的事更不多见",
+          "context": "OCR: PGAB11I 沪G·AB117 M 1",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7808838444738153,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4273,
+          "split": "test",
+          "content": "那车子下不去，只能停在路口走下去是不是？[呲牙]",
+          "context": "秦琼卖马，杨志卖刀，小小金只探钓#这鱼哪个钓友看了不羡慕 #谷麦逗钓 #原来钓鱼才是抖音运动顶流 #钓鱼 #野钓",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7746921000734216,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7669,
+          "split": "test",
+          "content": "好好干，年底让你当经理[呲牙][呲牙][呲牙]",
+          "context": "打工人的休息角落",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7360426051576886,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 132,
+          "split": "test",
+          "content": "会武功了，我还打不过你了",
+          "context": "OCR: AI生成小抖音AI创作抖音号：1249382187 抖音号：1249382187抖音搜索货运，茵茵姐来抖音发现更多创作者抖音",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7314302360569022,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 5313,
+          "split": "test",
+          "content": "你这置换还在乎涨跌吗？你要能卖130万买新的最少需要300万，现在你置换200万都用不了省了100多万，你这个房子才少卖几十万，这么一想就平衡了。",
+          "context": "2014年我在石家庄花68万买了套房，2021年涨到140万没卖。现在同小区挂75万，十年白忙。 我今年46岁，国企上班，月薪9000。2014年结婚在裕华区买了套98平，6900一平，贷了45万，月供2600。 那时候石家庄刚通地铁，中介说裕华区是新区，肯定涨。 确实涨了。2017年翻倍到1万4，我觉得这辈子最对的决定就是买了房。2021年最高挂到140万，有人出135万我没卖，觉得还能涨。 结果从2022年一路阴跌。去年小区成交两套，7600一平，75万左右。我这套算下来，比买的时候贵了7万。 十年，月供还了31万，光利息就20多万，房子只涨了7万。 上周媳妇想换大的，我把房挂出去，中介看了一圈说：\"哥，你这价不好卖，现在买房的都在砍，你挂80万试试。\" 说实话，当年觉得买房是存钱，现在才知道，有时候房子也会吃人。 你们觉得石家庄房价还会再跌吗？",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7295884580565762,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 144,
+          "split": "test",
+          "content": "这车至少要三万多块钱吧[呲牙][呲牙][呲牙]",
+          "context": "#汽车文化 #顶级豪华客车 #dou是好车",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.706895953412857,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 2655,
+          "split": "test",
+          "content": "你看你这大老板，我相信你，才找你，你给我个解决办法吧[灵机一动]",
+          "context": "赚了两万，下班~#瓦工工作日常 #沈阳装修 #书香门第 #沈阳金舟装饰工程有限公司",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7013486520061047,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1053,
+          "split": "test",
+          "content": "1000多公里，怎么着也得挣个1000多块钱呀",
+          "context": "\"能干\"不代表\"能赚\"。我从来不羡慕那些能干的女人，只羡慕那些什么都不用干，却还能被人捧在手心里的女人！#货运女司机 #vlog日常",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.6997673928651607,
+          "total_token_length": 384,
+          "was_truncated": false
+        }
+      ]
+    }
+  }
+}

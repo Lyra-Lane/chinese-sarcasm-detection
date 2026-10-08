@@ -1,0 +1,509 @@
+{
+  "schema_version": "1.0",
+  "primary_metric": {
+    "name": null,
+    "value": null
+  },
+  "validation_core_metrics": {},
+  "test_core_metrics": {
+    "loss": 0.26352643966674805,
+    "accuracy": 0.8921904761904762,
+    "precision": 0.7913067163479025,
+    "recall": 0.6798095238095239,
+    "f1": 0.6459295448239295,
+    "macro_f1": 0.6459295448239295,
+    "sarcasm_precision": 0.9709515096065874,
+    "sarcasm_recall": 0.8085714285714286,
+    "sarcasm_f1": 0.8823529411764707,
+    "average_precision": 0.9198037778743415,
+    "threshold": 0.5,
+    "false_positive_rate": 0.02419047619047619,
+    "specificity": 0.9758095238095238,
+    "predicted_positive_ratio": 0.4163809523809524,
+    "tn": 5123,
+    "fp": 127,
+    "fn": 1005,
+    "tp": 4245
+  },
+  "by_split": {
+    "test": {
+      "num_samples": 10500,
+      "confusion": {
+        "TP": 4245,
+        "TN": 5123,
+        "FP": 127,
+        "FN": 1005
+      },
+      "error_rate_by_length": [
+        {
+          "range": "0-50",
+          "num_samples": 0,
+          "num_errors": 0,
+          "error_rate": null
+        },
+        {
+          "range": "50-150",
+          "num_samples": 0,
+          "num_errors": 0,
+          "error_rate": null
+        },
+        {
+          "range": "150-256",
+          "num_samples": 0,
+          "num_errors": 0,
+          "error_rate": null
+        },
+        {
+          "range": "256+",
+          "num_samples": 10500,
+          "num_errors": 3362,
+          "error_rate": 0.3201904761904762
+        }
+      ],
+      "top_confident_false_negatives": [
+        {
+          "id": 3775,
+          "split": "test",
+          "content": "对着顾客笑脸相迎已经够好了",
+          "context": "日本游乐园工作人员一秒变脸，笑与不笑全凭心情",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9999810042788169,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 6650,
+          "split": "test",
+          "content": "@王奕然leo//好的，你高兴就好",
+          "context": "#王奕然[超话]# 天才摄影师 怎么说 ​",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.999980008583675,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 5421,
+          "split": "test",
+          "content": "真羡慕，没票也能看演唱会",
+          "context": "来早了，占个好位置！ ​",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9999633553233045,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7081,
+          "split": "test",
+          "content": "愿你走过的每一步，都有鲜花盛开和热烈掌声相伴左右【下地狱】",
+          "context": "#祺鑫 楼婚一#💜💛#祺鑫 强强联手# 不求名声显赫，只愿你岁岁平安、快乐常伴每一天 ​",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9999538786320469,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 8179,
+          "split": "test",
+          "content": "这路适合开船，不适合开车",
+          "context": "#陕汽德龙 #技术活 #德龙h3000 陕汽沙克曼 上道就是干",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9998546171737777,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 3320,
+          "split": "test",
+          "content": "建议打开《与君歌》降降压，收视断层真治愈",
+          "context": "#成毅[超话]# 一打开就是吵架…… ​",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.999821264213072,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1597,
+          "split": "test",
+          "content": "小心下颚线把手划伤了",
+          "context": "#内向日常",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9997587563945736,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1788,
+          "split": "test",
+          "content": "苞谷全遭水泡了，你挺嗨",
+          "context": "四川终于！下雨了啦！！！！感觉每一脚都会踩中机关#四川高温",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9996348199777294,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1188,
+          "split": "test",
+          "content": "想快乐学习，上高中啊",
+          "context": "#平桂英语#高中英语#西湾英语",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9995444959060705,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 3248,
+          "split": "test",
+          "content": "牛鬼蛇神，麟凤龟龙全齐啦[嘘][嘘][嘘][嘘]！",
+          "context": "一千一百万播放，84万点赞的作品，好看在哪？",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9994532380269161,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1719,
+          "split": "test",
+          "content": "这非洲妹子长得真白[呲牙]",
+          "context": "#重庆嘉陵江",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.99926708154246,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7973,
+          "split": "test",
+          "content": "赵雨凡国籍限时回归中",
+          "context": "哈哈哈哈哈哈我笑得好苦，国籍限时返场…#赵雨凡 #绿卡爱豆",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9991046079143096,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4803,
+          "split": "test",
+          "content": "太好了，又是限时开放[裂开]",
+          "context": "海瑟加入超燃竞技场！疯狂超燃返场 #蛋仔派对情报局 #蛋仔派对 #蛋仔奇思妙想计划 #蛋仔派对超燃竞技场 OCR: 护士海瑟品/辅助3海瑟加入超燃疯狂超燃返场",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9989027772050469,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7371,
+          "split": "test",
+          "content": "庄稼生长快，能快速改变城市面貌",
+          "context": "绿化带种庄稼",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.998901940690625,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4989,
+          "split": "test",
+          "content": "还没变化？这么好看",
+          "context": "40的岁年龄！练了3年没什么变化！还要坚持吗？",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9987115334990001,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 5504,
+          "split": "test",
+          "content": "诗中情感表达得真好！",
+          "context": "#现代诗如何才能写出优美的意境# 《藏头诗*原创》 现文坛相互攻讦 代沟已堪比深渊 诗人多魂飞魄散 如同是丧家之犬 何必要相煎太急 才子们吓破文胆 能力已大打折扣 写出来破败不堪 出家人出类拔萃 优势已十分明显 美丽使丑陋嫉妒 的确让他们不满 意味着不敢比试 境界是井中望天 （2） 你应该前往寺院 对柳下有个交代 人家虽光明磊落 生命却陷入黑暗 有机会帮他解脱 哪让君总吃斋饭 些许能红尘幸福 感受下何为真爱 悟透可同去彼岸 （3） 风骨中依然有爱 月色下走出寺院 皆有伊冻僵伏地 过路人视而不见 客官们退避三舍 为此我秉持信念 你就是狐妖转世 入怀抱只当修练 我不怕青灯熄灭 心路上没有黑暗",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9985828815430632,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4879,
+          "split": "test",
+          "content": "不是说今天凉快了吗？",
+          "context": "又开始汗蒸了！",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9983073542665667,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 745,
+          "split": "test",
+          "content": "找一面镜子吧！至少𥚃面的人顺眼",
+          "context": "村上春树又在胡说八道[泪] ​​​",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9982547531678302,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 5650,
+          "split": "test",
+          "content": "下次来记得带点特产，给深圳留点念想",
+          "context": "我应该再也不会来这个深圳了[嘻嘻][嘻嘻] ​",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9982109873095412,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 2118,
+          "split": "test",
+          "content": "支持千年笼养文化，继续传承下去",
+          "context": "#保护鸟类人人有责 #爱鸟护鸟 #画眉鸟食 #云南王鸟食鸟具 OCR: 保护鸟类人人有责已全部放生 保护鸟类人人有责已全部放生遇鸟是老一辈传下来的休闲乐趣 保护鸟类人人有已全部放生多少退休大爷靠着每日提笼散步打发时光 保护鸟类人人有责已全部放生我们热爱赏鸟传承民俗",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9982068184301444,
+          "total_token_length": 384,
+          "was_truncated": false
+        }
+      ],
+      "top_confident_false_positives": [
+        {
+          "id": 1175,
+          "split": "test",
+          "content": "老不死的疯疯癫癫，但愿这次说到做到。",
+          "context": "#特朗普# 对泽连斯基说：我们将给你们生产“爱国者”的许可证。这样你就不能抱怨我们给得不够了。自己制造吧。 微播U自娱自乐的微博视频 ​",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9650214796538915,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 3556,
+          "split": "test",
+          "content": "哈哈哈😁这才是国民自信！",
+          "context": "印尼没想到逼走中资企业，产业链短板全面暴露。来自帅化民的观察 OCR: 全球大爆卦中天新中天新2026.07.31cti中天新现场直睛品中天新闻中天新间中天中天新阁中天新天新闻中天新中天新间中天中天新中天新盟岛内传达没有中资印尼经济几乎成了空壳？",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9199436551277121,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7214,
+          "split": "test",
+          "content": "上厕所都1.5欧……尼玛。我感觉我也不算穷人了。12欧的麻辣烫升级到15欧才能吃饱。[捂脸][捂脸][捂脸]",
+          "context": "网友坚信2000欧仅等于国内6000？大头鹰实拍当地物价与税制现场打脸！ OCR:",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.8108967758097719,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 6476,
+          "split": "test",
+          "content": "让我们恭喜深海猎人被逐出2026夏日嘉年华！（不是）",
+          "context": "#明日方舟[超话]##明日方舟##2026夏日嘉年华# 烈日炎炎，夏日漫长， 不如踏上旅途，享受兜风时光。 一条雷姆必拓的蜿蜒长路， 串联起四位旅人的奇妙相遇。 7月25日19:30，邀您一同出发—— 沿着“零号公路”，驶往风的方向。 BiliBili观看地址： 微博观看地址： 抖音观看地址： 快手观看地址： 小红书观看地址： 关注@明日方舟Arknights 并转发本条微博，我们将抽取50位博士，赠送「任意角色徽章」1个。再次感谢大家的支持！",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7998511859153721,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4068,
+          "split": "test",
+          "content": "你歇歇，你一个月三万没问题",
+          "context": "深夜运输人 ，烟的味道 OCR: 五传经单立您店扫 双迎足中武迎连市双心证单三脑水 诚心定节蓝惠定巾U牌立龙证中-三卡布三楼彩动防水一布三膜耐星新水大 恒心定中流远您巾心甲宜心庄号武起运中一布三禁耐防水一布三膜耐磨防水证-布三层彩卖防水 诚心建巾益忠连中诚达建市武迎连中蓝心达中一布三膜耐磨防水一布三膜耐磨防水UU中租三范水一布三禁耐高时小G 蓝达建市监心定市诚远您市一布三膜印立迎足市蓝心志中一布三膜耐磨防水一布三膜耐磨防水1三直彩防水一布三膜耐水 盗心惠巾盗迎连市益远连市三心连中一布三膜阳磨锈水一三夏彩水一布三夏赵磁防水一布三膜耐磨防水 蓝心建巾益心建巾一布三膜耐磨防水一布三膜贴磨防水 吃意吉金飞航公TFA 电套1冰车总质量408FA J6P2净车总量40000号FAW 美水 喜 鲜业 #EX531# O2 mn 严 一 1 F",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.788898455300016,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 6154,
+          "split": "test",
+          "content": "你生的第一帅，谁也卷不了，根本卷不了[赞][赞]",
+          "context": "暑假工上场了😂😂😂 OCR: 你拿什么和我卷我的员工都是自己生的",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7883523829780058,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 9989,
+          "split": "test",
+          "content": "活着床前一碗水，胜似坟头一堆灰",
+          "context": "河南南阳人在上海打拼家政。#家政改变女人的命运 #家政护工 #家政改变女人的命运 #家政保姆 OCR: [IMG0]病房里92岁的老人睡中离去安儿上年给他梳洗下午送走不办丧礼不披麻戴孝花费不到5000女儿说生前尽孝了问心无愧你们觉得她说的对吗你们对这些事情有什么意见和建议呢抖音号：82035940859",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7877196547594528,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4731,
+          "split": "test",
+          "content": "孤舟好厉害啊，不愧是年冠王，二四年的剧二六年还那么能打[太开心]",
+          "context": "7.25酷云点播，云合，收视率 百花杀酷云2975万，云合2300万，确实差点有点多 这一秒过火2800万，好久没关注热度了，竟然降到了7000档[吃惊]，不过第一集收视率还行0.379 兵自风中来终于涨了，收视率平均0.93，央八有很久没有低于1的了 悬案超点了，中间停了很多天，人为增加集均。 南部档案云合热播期结束，1920万，酷云2100万+，算播得还行吧。 曾舜晞孤舟到了卫视第二✌🏻 #这一秒过火##百花杀##兵自风中来##剧集南部档案#",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7767473268074446,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1499,
+          "split": "test",
+          "content": "郭德纲出来了，才认识这许多大S",
+          "context": "少马爷过大寿，郭德纲亲自到场祝贺，座位暴露相声界地位 OCR: 少马爷过80大寿郭德纲亲自到场讯贺座位暴露相声界地位SMAN6祝你生日快乐",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7541720911254363,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 10163,
+          "split": "test",
+          "content": "这叫：优雅的退出人生",
+          "context": "越来越多的老人选择一个叫七步的晚年活法！",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7510705494555144,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4722,
+          "split": "test",
+          "content": "正说明你这些长辈们对金朋没-点亲情味，金朋以后千万要和他们画清阶线，永不来往",
+          "context": "大姑点餐时要拍视频把金鹏拍进去，想让网友夸大姑#金鹏孝行天下# OCR: 桃花大姑点餐时要拍金鹏进去想让网友夸大姑",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7460380015801529,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 596,
+          "split": "test",
+          "content": "郑总郑总 1000mtx还要什么时候会上星云黑？什么时候执行放心定呢",
+          "context": "红牛罗马尼亚硬耐力赛（Red Bull Romaniacs）是全球 Hard Enduro 硬核耐力越野两大Supreme 最高级别殿堂赛事之一，与红牛厄兹伯格矿山耐力赛齐名。作为世界规模最大的多日硬核越野拉力赛事，赛事放在喀尔巴阡山脉，采用城市序幕排位 + 四天连续野外穿越的赛制，车手每日长时间直面原始密林、河谷乱石、湿滑陡坡与多变山地气候，同时依靠 GPS 自主导航，持续考验骑行技术、体能储备、机械应急能力与意志力。它常年汇聚全球五大洲顶尖职业车手，不同于单日决战的厄兹堡，罗马尼亚赛事更看重长期稳定性与持续作战能力，圈内公认完赛即是极高荣誉，冠军头衔是硬核越野领域含金量最重的勋章之一，也是衡量顶级车手综合实力的标杆赛事。 去年，春风第一次参与这项赛事，（adv组别一共65位选手）其中23位选手选择春风的车型，（今年adv组别一共99位选手）其中43人选择春风的车型，春风得到越来越多专业车手的认可 车手水平ADV组含15名以上达喀尔级职业车手，堪称“天花板级别” 包括两届达喀尔冠军山姆·桑德兰、两届红牛冠军乔尼·沃克、五届Enduro世界冠军伊万·塞万提斯等 同时还包括了知名ADV大神，也是上届终极组冠军波尔·塔雷斯",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.7275635533109883,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4456,
+          "split": "test",
+          "content": "跑的多才鼓包，肯定超过18万公里了，估计是出租车或者网约车，",
+          "context": "电池鼓包 #新能源电池维修#修理厂日常#电池#电车#新能源专业 OCR: 磷酸铁锂的刀片电池O6N 看到没有 福电池鼓包了 看到没 这边是高一截出来鼓起来了 话555561650 这边是平的 很明显是不是几万块也用没7 想帮你也帮不了 车子又不在质保期范围内 你说这怎么搞",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.714095628448611,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 2088,
+          "split": "test",
+          "content": "是他们排协也搞团体，去郎化，教练组辽宁帮，队员用苏女，2000w和7580他们不会考虑国家队荣耀，他们只顾自己利益[无语流汗][无语流汗][无语流汗]",
+          "context": "祖国，永远刻在朱婷心里 #朱婷 #中国女排 #运动员的担当 #朱婷王者归来 OCR: 微博权频号本国监民店2024年12月22日朱婷在采访中明确7希望身披国家队球衣为国效九。2025年5月8日中国女E排公布了国家队名单和球衣号码，朱婷不在名单内，2号球衣也易主了ZMGdo不安好心带节奏VOMEN面祝所有反噬给你们啥都不说了自己看",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.712832857774383,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 3009,
+          "split": "test",
+          "content": "那为什么还打矮篮筐。[捂脸]",
+          "context": "裁判：当你觉得压力大的时候 可以看看我！ #裁判 #压力 #NYBO全国总决赛 OCR: 裁判的压力 EXI做裁判有压力吗华茗康27中阳艺二榜UNYBO人ALIEPOTGFINALS 80-0做裁判有压力吗宏阳二楼U儿中寿FE NYBO主教练施压 小黄象小I主教练施压 小美象华雪馆66隆彩蓝琳L皮五益路 园06：30当3.0 06:30聘3.0同时客场教练施压TEM电巢 客场观众施压YYOO商1刘告然王民火坊 客场观众施压80-25M刘营然2星业华楼 80-220 MLMNGNYBO3.0N24个爱 爱主场观众施压补水星脚广艺二#U10 主场观众施压?阳季艺二粉 81R时1车二110 NYBNYBO中国1CHINA 全调总快小美象马照顺8黄象H之区二 A0211B05小黄象IAOENR232GU马羽单8象阳生二# 全国总决安药小黄象OIAB843就问你怕不怕？马明甲o号 小黄象8E就问你怕不怕？马明学8中国心 E4小黄象OBR就问你怕不怕？丹全国必物 全国总决赛RHE小黄象00就问你怕不怕？马明8富国生意",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.709380240966858,
+          "total_token_length": 384,
+          "was_truncated": true
+        },
+        {
+          "id": 7608,
+          "split": "test",
+          "content": "总是这些人，所以愚民说的真没错[看]除非真的顺路兼没油，否则怎样也不划算。",
+          "context": "OCR: 今晚上这油大家是非加不可了鲁L·E9232",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.6956262656317067,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 132,
+          "split": "test",
+          "content": "会武功了，我还打不过你了",
+          "context": "OCR: AI生成小抖音AI创作抖音号：1249382187 抖音号：1249382187抖音搜索货运，茵茵姐来抖音发现更多创作者抖音",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.6929423811215022,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 9128,
+          "split": "test",
+          "content": "[玫瑰][玫瑰][玫瑰][玫瑰][玫瑰][玫瑰][玫瑰]我认不得，认不得你是谁，我只能认得我自己，认不得你说我认得，认不得呢嗯，不见你的头像，我肯定认不得呢，幸幸你是个大明星，井井有名的大明星，出名的大明星，出名的大头",
+          "context": "前路开阔，满目皆是盛夏风光#今日份的好天气 #随拍 #城市道路随手拍 #沿途风景随拍 #在路上",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.6820763754761678,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7408,
+          "split": "test",
+          "content": "学徒工不叫工资，叫生活费",
+          "context": "每个月给你100元回到1971年 ，相当于什么水平#乡愁记忆 OCR:",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.68154465589737,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1053,
+          "split": "test",
+          "content": "1000多公里，怎么着也得挣个1000多块钱呀",
+          "context": "\"能干\"不代表\"能赚\"。我从来不羡慕那些能干的女人，只羡慕那些什么都不用干，却还能被人捧在手心里的女人！#货运女司机 #vlog日常",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.6792136087175014,
+          "total_token_length": 384,
+          "was_truncated": false
+        }
+      ]
+    }
+  }
+}

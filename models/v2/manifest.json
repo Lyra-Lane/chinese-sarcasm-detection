@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "exp_20260821_173605",
+  "task_name": "iter2_group1",
+  "status": "completed",
+  "started_at": "2026-08-21T17:36:05+08:00",
+  "finished_at": "2026-08-21T17:47:31+08:00",
+  "duration_seconds": 686.476,
+  "command": "<historical-project-root>/model_train/train_cls_prompt_iterative.py --train-file <historical-project-root>/outputs/sarcasm_cls_prompt_iterative/train_iter2.jsonl",
+  "environment": {
+    "python_version": "3.11.9",
+    "platform": "Linux-5.15.0-133-generic-x86_64-with-glibc2.31",
+    "torch_version": "2.7.1+cu126",
+    "transformers_version": "4.52.4",
+    "cuda_version": "12.6",
+    "cuda_available": true,
+    "device_count": 1,
+    "device_names": [
+      "NVIDIA L20"
+    ]
+  },
+  "code": {
+    "git_commit": null,
+    "source_sha256": {
+      "train_cls_prompt.py": "040cb38e941bd98ecd040021d270fd30202166e0c49e9d16495be037d0e06641",
+      "pipeline_config.py": "07227b1d355789e0fed377efe8611c1b3909f2ca7746e1687be6e9810c24a9ec"
+    }
+  },
+  "error": null
+}

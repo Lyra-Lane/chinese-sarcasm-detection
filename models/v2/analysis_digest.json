@@ -1,0 +1,509 @@
+{
+  "schema_version": "1.0",
+  "primary_metric": {
+    "name": null,
+    "value": null
+  },
+  "validation_core_metrics": {},
+  "test_core_metrics": {
+    "loss": 0.068523108959198,
+    "accuracy": 0.8853333333333333,
+    "precision": 0.8265439526547106,
+    "recall": 0.7900952380952381,
+    "f1": 0.7840697238134015,
+    "macro_f1": 0.7840697238134015,
+    "sarcasm_precision": 0.8819864048338368,
+    "sarcasm_recall": 0.8897142857142857,
+    "sarcasm_f1": 0.885833491371136,
+    "average_precision": 0.9334423540193152,
+    "threshold": 0.5,
+    "false_positive_rate": 0.11904761904761904,
+    "specificity": 0.8809523809523809,
+    "predicted_positive_ratio": 0.5043809523809524,
+    "tn": 4625,
+    "fp": 625,
+    "fn": 579,
+    "tp": 4671
+  },
+  "by_split": {
+    "test": {
+      "num_samples": 10500,
+      "confusion": {
+        "TP": 4671,
+        "TN": 4625,
+        "FP": 625,
+        "FN": 579
+      },
+      "error_rate_by_length": [
+        {
+          "range": "0-50",
+          "num_samples": 0,
+          "num_errors": 0,
+          "error_rate": null
+        },
+        {
+          "range": "50-150",
+          "num_samples": 0,
+          "num_errors": 0,
+          "error_rate": null
+        },
+        {
+          "range": "150-256",
+          "num_samples": 0,
+          "num_errors": 0,
+          "error_rate": null
+        },
+        {
+          "range": "256+",
+          "num_samples": 10500,
+          "num_errors": 2204,
+          "error_rate": 0.2099047619047619
+        }
+      ],
+      "top_confident_false_negatives": [
+        {
+          "id": 7081,
+          "split": "test",
+          "content": "愿你走过的每一步，都有鲜花盛开和热烈掌声相伴左右【下地狱】",
+          "context": "#祺鑫 楼婚一#💜💛#祺鑫 强强联手# 不求名声显赫，只愿你岁岁平安、快乐常伴每一天 ​",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9906066510928244,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7634,
+          "split": "test",
+          "content": "私信了，主播人很好问我是什么品种癞蛤蟆[流泪]",
+          "context": "突然抬头定格在黄昏的晚霞#龙湖之镜，夕照为诗 OCR: [IMG0]抖音号：lm1204ya",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9761002821792089,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1597,
+          "split": "test",
+          "content": "小心下颚线把手划伤了",
+          "context": "#内向日常",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9760823216151221,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 9397,
+          "split": "test",
+          "content": "头盘油炸旺旺脆皮热狗一大三小，冷菜碎割臭豆腐小动保。甜品爆炒集美猫儿朵心肝，好香啊",
+          "context": "一轮明月满山林，点点萤火寄相思。昔时身旁小可爱，唯有梦里再相识。#想念我的小狗 #汪星的毛孩子 #月色寄思念",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9755801818181455,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 9808,
+          "split": "test",
+          "content": "你是自愿被逼的[柴犬]",
+          "context": "她逼我发的😭 @糯糯、",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.974553613106395,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 6650,
+          "split": "test",
+          "content": "@王奕然leo//好的，你高兴就好",
+          "context": "#王奕然[超话]# 天才摄影师 怎么说 ​",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9741615399003289,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4989,
+          "split": "test",
+          "content": "还没变化？这么好看",
+          "context": "40的岁年龄！练了3年没什么变化！还要坚持吗？",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9723717080083608,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4561,
+          "split": "test",
+          "content": "低头玩手机？那个年代有手机吗？",
+          "context": "你能看出这张图哪里穿帮了吗？",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9723131306950539,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 9897,
+          "split": "test",
+          "content": "关爱老人，人人有责。[戳手手]",
+          "context": "在东阳市巍山镇怀鲁村，要租店面的商家，千万注意了!!! 这两位老人家，会蹭店家不在店里，偷卖商家设备。太牛了吧具体店面房在这个定位这里!!今天 路过自己店门口，因为处于转让的状态，没隔三差五的回乡下。今天经过店门口，发现门口的烧烤设备上贴上了房东的号码，写着烤炉转让。把我们原来店面转让的信息撕毁。我告诉你店门钥匙放在哪里，不是为了你方便盗卖商家设备，而是方便你带其它租客看店面格局。租店面的时候，因为在准备开店的设备材料，前面有几天空着。后来去办理营业执照才知道，这家店前面商户没有注销。我们注册不了新商家。我一直在积极联系前面商户，让对方注销。在等待的期间，房东也是吃了雄心豹子🐆胆，把店里的烧烤架和大铁锅，盗卖，盗卖，盗卖。后来我们自己又重新买来一个烧烤架，又把自己家里的炒菜锅拿去店里用。没想到啊，没想到啊，现在蹭着我转让期间不在店里的空挡，居然明目张胆的要把烧烤净化器卖掉，牛逼，佩服！！！#爱护老人传递正能量 #老年生活百态 #东阳 #怀鲁 #巍山 OCR: [IMG0]小抖音号：Just888888",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9716711104997388,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 10296,
+          "split": "test",
+          "content": "今天我的胃也吃了很多大结果",
+          "context": "一起床就拉出大结果了 ​",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9638303794929908,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 9869,
+          "split": "test",
+          "content": "外面的白菜最好吃[偷笑][偷笑]",
+          "context": "不好吃🙄。#豆瓣辣椒酱四川特产 #调味料爱好者 #灵魂调味品",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9636159626012599,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 5377,
+          "split": "test",
+          "content": "贵阳到黄果树1.5，你开飞机",
+          "context": "贵州旅游攻略 第一次来贵州游玩，正确游玩顺序千万不要走反了，这份不绕路环线游攻略收藏好不踩坑#贵州旅游#正确游玩顺序#不绕路环线游#贵州旅游攻略#芳芳旅行推荐官",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9622373558633839,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1187,
+          "split": "test",
+          "content": "我说我累 你说别人比我更累 知道了 我说我知道了",
+          "context": "走到现在根本不是我想要的 #和你有太多回忆",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.958021714511138,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7923,
+          "split": "test",
+          "content": "大家都盼着他发光",
+          "context": "“无能的奥特曼”。",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9575109728848626,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 5650,
+          "split": "test",
+          "content": "下次来记得带点特产，给深圳留点念想",
+          "context": "我应该再也不会来这个深圳了[嘻嘻][嘻嘻] ​",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9563247557132196,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 5504,
+          "split": "test",
+          "content": "诗中情感表达得真好！",
+          "context": "#现代诗如何才能写出优美的意境# 《藏头诗*原创》 现文坛相互攻讦 代沟已堪比深渊 诗人多魂飞魄散 如同是丧家之犬 何必要相煎太急 才子们吓破文胆 能力已大打折扣 写出来破败不堪 出家人出类拔萃 优势已十分明显 美丽使丑陋嫉妒 的确让他们不满 意味着不敢比试 境界是井中望天 （2） 你应该前往寺院 对柳下有个交代 人家虽光明磊落 生命却陷入黑暗 有机会帮他解脱 哪让君总吃斋饭 些许能红尘幸福 感受下何为真爱 悟透可同去彼岸 （3） 风骨中依然有爱 月色下走出寺院 皆有伊冻僵伏地 过路人视而不见 客官们退避三舍 为此我秉持信念 你就是狐妖转世 入怀抱只当修练 我不怕青灯熄灭 心路上没有黑暗",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9560893380371444,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 6544,
+          "split": "test",
+          "content": "有BIN在没意外",
+          "context": "可以说完全是blg的版本，就这msi和ewc一个都没拿到，确实有点离谱啊",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9518721859764566,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7973,
+          "split": "test",
+          "content": "赵雨凡国籍限时回归中",
+          "context": "哈哈哈哈哈哈我笑得好苦，国籍限时返场…#赵雨凡 #绿卡爱豆",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9488854027383282,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7402,
+          "split": "test",
+          "content": "一边唱一边和小耶：这人脸都已经长成这样了 还能唱成这样😋//看着美丽的脸听着美妙的声音，这也太爽",
+          "context": "听取妈声一片@你在能你有我刘能能吗 ​ OCR: [IMG0]P-RTYWORLD平万 [IMG1]P-RTYWORLD演唱魏晨古今风流付丝弦一曲弦教方言一曲弦歌万言训乐K家联品四花甲驿业今区学 [IMG2]PRTYWORLD野草籽牲牲斗志很旺精神充满无穷的力量野草籽牲姓斗志很1旺祛祥祥斗bBLAM教坤主 [IMG3]P-RTYWORLD直播魏：许我再少年桃李春风映雪山都日bBIAMOK电无 [IMG4]PRTYWORLD转眼间你回头那张脸b韩蹈间 [IMG5]赤子提笔惊星斗英雄拔剑镇河英雄拔剑镇山河消传动",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.9464213502437129,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 9534,
+          "split": "test",
+          "content": "演技都是独一无二的！",
+          "context": "#AI短剧泛滥真人短剧难找# 刷短剧这么久，昨天刷到好几个常看的演员全都不发行程图了，瞬间有点惆怅。 说是剧组安排调整，可咱们天天刷剧的心里门儿清，现在AI短剧铺天盖地，真人短剧越来越难做。 我真的吃不惯AI流水线出来的片子，没有真实的情绪起伏，眼神都是僵的。真人演员熬夜拍戏、反复磨台词，哭戏笑意全是实打实的，这种氛围感根本复制不来。 真怕再过段时间，想看走心的真人小短剧都找不到几部，还是希望行业别一味图省事，多留点空间给认真拍戏的真人演员。#微博二创视频创作季##多位短剧顶流暂停发行程图#的相关内容，来智搜看看。多位短剧顶流暂停发行程图 豆米不是米豆的微博视频",
+          "true_label": 1,
+          "predicted_label": 0,
+          "confidence": 0.945398655792494,
+          "total_token_length": 384,
+          "was_truncated": false
+        }
+      ],
+      "top_confident_false_positives": [
+        {
+          "id": 7214,
+          "split": "test",
+          "content": "上厕所都1.5欧……尼玛。我感觉我也不算穷人了。12欧的麻辣烫升级到15欧才能吃饱。[捂脸][捂脸][捂脸]",
+          "context": "网友坚信2000欧仅等于国内6000？大头鹰实拍当地物价与税制现场打脸！ OCR:",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9773427087933426,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 5214,
+          "split": "test",
+          "content": "一月十几万的外快，你这点她不在乎！",
+          "context": "收费员真的是人美心善，爆赞！ OCR: 货车司机下高速没钱付费收费员垫付通行费1396元你不怕我不还吗？牢道关的X违法装校严幼上高值15货车司机：ETCVAT我那天下高速未系安全带严禁上高",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9638878517742733,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 3556,
+          "split": "test",
+          "content": "哈哈哈😁这才是国民自信！",
+          "context": "印尼没想到逼走中资企业，产业链短板全面暴露。来自帅化民的观察 OCR: 全球大爆卦中天新中天新2026.07.31cti中天新现场直睛品中天新闻中天新间中天中天新阁中天新天新闻中天新中天新间中天中天新中天新盟岛内传达没有中资印尼经济几乎成了空壳？",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9623238245678474,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 9141,
+          "split": "test",
+          "content": "小米7🈷️份刚出流量卡，8月就被三方叫停了[大笑][大笑][大笑][大笑]",
+          "context": "【来源：大同交通广播】 中国电信、中国移动、中国联通公告： 8月1日起，停止第三方互联网渠道号卡办理，用户只能通过电信运营商官方App、官方网站等渠道办理。 中国电信、中国移动和中国联通7月31日晚发布“关于规范互联网渠道售卡管理的公告”。《公告》称：为保障用户权益和数据信息安全，对互联网渠道号卡订购业务进行统一规范。自2026年8月1日起，用户如需在互联网渠道订购号卡，只能通过电信运营商官方App、官方网站等渠道办理，第三方互联网渠道不再提供电信号卡办理相关服务。 运营商在《公告》中表示，近期发现有不法商家冒用“运营商授权合作”名义发布虚假售卡信息，或假借售卡名义收集用户身份证件、住址、联系方式等个人敏感信息，侵害了用户权益，给用户带来了极大的信息泄露风险。 来源 | 央视新闻、红星新闻 微信搜索关注“九派财经”（微信号:JPCJnews）实时查询金价今日价格走势、油价最新调整消息，获取A股最新动态、企业重大资讯、原创精选等财经快讯。声明：此文版权归原作者所有，若有来源错误或者侵犯您的合法权益，您可通过邮箱与我们取得联系，我们将及时进行处理。邮箱地址：jpbl@jp.jiupainews.com",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9555602667003293,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 10163,
+          "split": "test",
+          "content": "这叫：优雅的退出人生",
+          "context": "越来越多的老人选择一个叫七步的晚年活法！",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9361712413582656,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 596,
+          "split": "test",
+          "content": "郑总郑总 1000mtx还要什么时候会上星云黑？什么时候执行放心定呢",
+          "context": "红牛罗马尼亚硬耐力赛（Red Bull Romaniacs）是全球 Hard Enduro 硬核耐力越野两大Supreme 最高级别殿堂赛事之一，与红牛厄兹伯格矿山耐力赛齐名。作为世界规模最大的多日硬核越野拉力赛事，赛事放在喀尔巴阡山脉，采用城市序幕排位 + 四天连续野外穿越的赛制，车手每日长时间直面原始密林、河谷乱石、湿滑陡坡与多变山地气候，同时依靠 GPS 自主导航，持续考验骑行技术、体能储备、机械应急能力与意志力。它常年汇聚全球五大洲顶尖职业车手，不同于单日决战的厄兹堡，罗马尼亚赛事更看重长期稳定性与持续作战能力，圈内公认完赛即是极高荣誉，冠军头衔是硬核越野领域含金量最重的勋章之一，也是衡量顶级车手综合实力的标杆赛事。 去年，春风第一次参与这项赛事，（adv组别一共65位选手）其中23位选手选择春风的车型，（今年adv组别一共99位选手）其中43人选择春风的车型，春风得到越来越多专业车手的认可 车手水平ADV组含15名以上达喀尔级职业车手，堪称“天花板级别” 包括两届达喀尔冠军山姆·桑德兰、两届红牛冠军乔尼·沃克、五届Enduro世界冠军伊万·塞万提斯等 同时还包括了知名ADV大神，也是上届终极组冠军波尔·塔雷斯",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9348432401876664,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 5646,
+          "split": "test",
+          "content": "图片评论OCR:IMG:1命其实你已经很棒了明明有精神病但大部分时间都能表现的像正常人",
+          "context": "白帽群众站满长治街头，无声抗议海湾战争，只为守护和平 OCR: 伊拉克波斯湾长无声抗议治沙特阿拉伯海湾战争反对战争维护和平长治街头守护和平海湾战火升级国际社会呼吁和平解决R",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9264602142551963,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 7993,
+          "split": "test",
+          "content": "让着白银辅助和黄金上单回 ldl 吧。你们这队伍外战这么丢人 路人都看不过去了",
+          "context": "#2026MSI# 淘汰赛 TES 1:3 TSW（滔搏红色方） 2分10，我方打野抓中击杀对方中单维克托； 9分20，双方在下路交手完成2换2； 10分钟，敌方击杀小龙； 15分40，双方小龙团，我方被打出2换5； 21分半，我方抢到小龙； 24分钟，我方中路极限1换1； 27分40，敌方击杀小龙； 32分钟，我方击杀小龙； 37分50，我方击杀小龙； 40分钟，敌方击杀纳什男爵； 42分钟，我方被团灭，随后被一波结束比赛。 #薪火耀新程##搏至无憾#",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9218922427149693,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 2392,
+          "split": "test",
+          "content": "回复@小红chen爱打盹:男司机都这样 雄性 觉得买了保险 别人命不是命 它也不用赔钱 所以无所谓",
+          "context": "白车在停车场入口紧跟前车闯卡，女子从侧边窜出后被撞并遭两次碾压。发布者称，白车无进门权限，女子奔跑是因上班快迟到。 评论发表你的看法的微博视频 ​ OCR: [IMG0]白车在停车场入口紧跟前车闯卡女子从侧边窜出后被撞并遭两次碾压发布者称：白车无进门权限女子奔跑是因上班快迟岳阳日报NLUA近日浙江来源：搜狐新闻",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9204573917745443,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 6154,
+          "split": "test",
+          "content": "你生的第一帅，谁也卷不了，根本卷不了[赞][赞]",
+          "context": "暑假工上场了😂😂😂 OCR: 你拿什么和我卷我的员工都是自己生的",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9187417769516505,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 5320,
+          "split": "test",
+          "content": "是啊[捂脸][捂脸]这又不是国家标准[大笑][大笑][比心][比心]",
+          "context": "顾客因大盘鸡里有土豆报警 OCR: 顾客报警“大盘鸡怎么能有土豆这是欺诈“90后”民警耐心调解新疆“馕警官”作证：真有土豆长江云新闻",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9186463220853233,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 4068,
+          "split": "test",
+          "content": "你歇歇，你一个月三万没问题",
+          "context": "深夜运输人 ，烟的味道 OCR: 五传经单立您店扫 双迎足中武迎连市双心证单三脑水 诚心定节蓝惠定巾U牌立龙证中-三卡布三楼彩动防水一布三膜耐星新水大 恒心定中流远您巾心甲宜心庄号武起运中一布三禁耐防水一布三膜耐磨防水证-布三层彩卖防水 诚心建巾益忠连中诚达建市武迎连中蓝心达中一布三膜耐磨防水一布三膜耐磨防水UU中租三范水一布三禁耐高时小G 蓝达建市监心定市诚远您市一布三膜印立迎足市蓝心志中一布三膜耐磨防水一布三膜耐磨防水1三直彩防水一布三膜耐水 盗心惠巾盗迎连市益远连市三心连中一布三膜阳磨锈水一三夏彩水一布三夏赵磁防水一布三膜耐磨防水 蓝心建巾益心建巾一布三膜耐磨防水一布三膜贴磨防水 吃意吉金飞航公TFA 电套1冰车总质量408FA J6P2净车总量40000号FAW 美水 喜 鲜业 #EX531# O2 mn 严 一 1 F",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.9153903944206709,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 10079,
+          "split": "test",
+          "content": "速度快拦截很轻松点赞",
+          "context": "乌克兰军用无人机 OCR: 国外靶场合法拍摄危险请勿模仿",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.8869591842253643,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1175,
+          "split": "test",
+          "content": "老不死的疯疯癫癫，但愿这次说到做到。",
+          "context": "#特朗普# 对泽连斯基说：我们将给你们生产“爱国者”的许可证。这样你就不能抱怨我们给得不够了。自己制造吧。 微播U自娱自乐的微博视频 ​",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.8800290560184265,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1505,
+          "split": "test",
+          "content": "这就是农民的功劳最大了！盛过了土非强盗行为！",
+          "context": "农民贡献 交公粮:57年，交农业税:48年，交提留款：16年。农民可以自豪的说，请不要看不起我们，我对国家的贡献大着呢！这就是说话的底气！你支持吗？#震撼的演讲 #寻美孝昌",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.8785990479470617,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 1490,
+          "split": "test",
+          "content": "这那是什么人间啊。简直是天堂仙女姐姐们的显灵舞蹈队！",
+          "context": "有人花钱就是为了看安万剧院谢幕，太好看了 @兴文旅投集团 #抖出兴中美 OCR: 中国戏曲谢幕的天花板唯有安万剧院名创官刮院演出",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.8735868524160776,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 3652,
+          "split": "test",
+          "content": "三连屏司机又操作不了，大众就聪明多了，屏幕围绕司机设计。非司机操作屏幕就是危险。[灵光一闪][灵光一闪][灵光一闪]",
+          "context": "新款的蒙迪欧这外观颜值 开在路上丝毫不输二三十万的车吧 #撸车日常 #福特蒙迪欧 #年轻运动首选 OCR: A负一层",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.8667145049232503,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 10430,
+          "split": "test",
+          "content": "那真是群雄逐鹿了[白眼]",
+          "context": "🏸2026超级1000男单格局！正在悄然改变！随着中国公开赛结束，本赛季四站超级1000冠军全部产生： 🏆昆拉武特｜马来西亚公开赛 🏆林俊易｜全英公开赛 🏆赖浩俊｜印尼公开赛 🏆周天成｜中国公开赛 四站赛事，四位不同冠军。 这也意味着，男单赛场正在告别过去几年“一两位选手长期统治”的局面。 OCR: [IMG0]2026四站super1000级别冠军eTOYOTA紫太井毛雅2MANDARINBADMIN土地银行ANBANK(FTAWAN昆拉武特赖浩俊周天成林俊易马来西亚公开赛印尼公开赛中国公开赛全英公开赛抖音号：JFYWS2026",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.8664775739567107,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 9181,
+          "split": "test",
+          "content": "今天真不算热。。[大笑]",
+          "context": "如题！昨晚排队2个多小时吃到了楼外楼，长春人民吃的太好了！ OCR: [IMG0]通知本人携家人已于7月16日正式访问吉林省，预计为期15天左右，忘记提前通知吉林省人民及！文旅做好接待工作了3不过截至目前挺满意预计注入资金1个W往回走，可带动贵省年度GDP增长，不用感谢！当前行程为二刷伪满皇宫，昨天没逛过瘾！14:33",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.8648902174653968,
+          "total_token_length": 384,
+          "was_truncated": false
+        },
+        {
+          "id": 9021,
+          "split": "test",
+          "content": "原来开26度是误区呀😮",
+          "context": "空调开26度亏大了，夏天开到这个数，既舒服还省电！ (1) OCR:",
+          "true_label": 0,
+          "predicted_label": 1,
+          "confidence": 0.8561307042685833,
+          "total_token_length": 384,
+          "was_truncated": false
+        }
+      ]
+    }
+  }
+}
